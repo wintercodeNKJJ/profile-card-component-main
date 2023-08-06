@@ -1,0 +1,119 @@
+@font-face {
+  font-family: kumbh;
+  src: url('./Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf');
+}
+
+body{
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: kumbh;
+}
+
+h1,p{
+  margin: 0;
+}
+
+.back{
+  width: 100%;
+  min-width: 1000px;
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+.im1,.im2{
+  position: absolute;
+  width: 700px;
+  height: 700px;
+}
+
+.im1{
+
+  top: -50%;
+  left: -10%;
+}
+
+.im2{
+  bottom: -50%;
+  right: -10%;
+}
+
+.content{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+main{
+  background-color: white;
+  width: 330px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .bottom{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 1rem;
+  border-top: solid 1px hsla(227, 10%, 46%, 0.449);
+  padding: 1rem 0;
+}
+
+.top{
+  text-align: center;
+  height: 120px;
+}
+
+.top img{
+  margin-top: -35%;
+  margin-bottom: 10px;
+  border: solid 3px white;
+  border-radius: 50%;
+}
+
+.top .name p:nth-child(1){
+  font-weight: 900;
+}
+
+.top p:nth-child(2){
+  color: hsl(227, 10%, 46%);
+}
+
+.top p:nth-child(3){
+  font-size: 0.8rem;
+  color: c;
+}
+
+.top-img{
+  border-radius: 15px 15px 0 0;
+  background-image: url('./images/bg-pattern-card.svg');
+  width: 100%;
+  height: 150px;
+}
+
+.name{
+  display: flex;
+  text-align: center;
+  gap:5px
+}
+
+.item{
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.item p{
+  color: hsl(227, 10%, 46%);
+}
+
